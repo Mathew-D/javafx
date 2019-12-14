@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6a86ee3-02c5-4250-95c2-6fd0eecbee8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype-metadata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__artifactId__.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/nbactions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/FXMLController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/resources/fxml/primary.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/resources/styles/Styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/projects/basic/archetype.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/projects/basic/goal.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/archetype-metadata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/archetype-resources/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/archetype-resources/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/archetype-resources/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/archetype-resources/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/archetype-resources/__artifactId__.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/archetype-resources/nbactions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/archetype-resources/src/main/java/FXMLController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/archetype-resources/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/archetype-resources/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/archetype-resources/src/main/resources/fxml/primary.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/archetype-resources/src/main/resources/styles/Styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javafx-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/archetype.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/goal.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/nbactions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/src/main/java/it/pkg/FXMLController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/src/main/java/it/pkg/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/src/main/resources/fxml/primary.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/src/main/resources/styles/Styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="P:\javaFX\archetype\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UxMvyyYVWDzCTDuQSfUcQDTrro" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6a86ee3-02c5-4250-95c2-6fd0eecbee8d" name="Default Changelist" comment="" />
+      <created>1576294027720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576294027720</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="553" y="181" key="#Project_Structure" timestamp="1576294455328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="553" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1576294455328" />
+    <state x="626" y="118" key="CommitChangelistDialog2" timestamp="1576366763571">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="626" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576366763571" />
+    <state x="741" y="278" key="FileChooserDialogImpl" timestamp="1576354533004">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="741" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576354533004" />
+    <state width="1878" height="282" key="GridCell.Tab.0.bottom" timestamp="1576354903973">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576354903973" />
+    <state width="1878" height="282" key="GridCell.Tab.0.center" timestamp="1576354903971">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576354903971" />
+    <state width="1878" height="282" key="GridCell.Tab.0.left" timestamp="1576354903971">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576354903971" />
+    <state width="1878" height="282" key="GridCell.Tab.0.right" timestamp="1576354903973">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576354903973" />
+    <state x="464" y="165" key="SettingsEditor" timestamp="1576350546228">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="464" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576350546228" />
+    <state x="668" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1576339256633">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576339256633" />
+    <state x="385" y="228" key="new project wizard" timestamp="1576354874275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="385" y="228" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1576354874275" />
+    <state x="623" y="246" width="672" height="677" key="run.anything.popup" timestamp="1576354348552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="246" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576354348552" />
+  </component>
+</project>
