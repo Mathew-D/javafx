@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b6a86ee3-02c5-4250-95c2-6fd0eecbee8d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javafx.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/archetype-resources/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/archetype-resources/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/archetype-resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/archetype-resources/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/archetype-resources/src/main/java/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/archetype-resources/src/main/java/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/archetype-resources/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/archetype-resources/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javafx-1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/javafx-1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/src/main/java/it/pkg/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/src/main/java/it/pkg/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/basic/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javafx-1.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +50,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Netbeans/archetype2" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
@@ -57,6 +66,11 @@
       <command value="mvn install" />
       <command value="mvn release:prepare" />
       <command value="mvn release:perform" />
+      <command value="mvn sign" />
+      <command value="mvn nexus-staging:release" />
+      <command value="mvn clean deploy" />
+      <command value="mvn release:perform -Darguments=-Dgpg.passphrase=thephrase" />
+      <command value="mvn deploy -Darguments=-Dgpg.passphrase=thephrase" />
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -77,41 +91,98 @@
       <option name="project" value="LOCAL" />
       <updated>1576366832294</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Init - JavaFX working archetype">
+      <created>1594273595369</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594273595369</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Init - JavaFX working archetype&#10;needed to change groupID" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init - JavaFX working archetype&#10;needed to change groupID" />
+    <MESSAGE value="Init - JavaFX working archetype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init - JavaFX working archetype" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="742" y="276" key="FileChooserDialogImpl" timestamp="1594254306692">
+    <state x="830" y="383" key="#Notifications" timestamp="1594273858815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="742" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594254306692" />
-    <state width="1878" height="282" key="GridCell.Tab.0.bottom" timestamp="1594273242236">
+    <state x="830" y="383" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1594273858815" />
+    <state x="441" y="94" key="#Project_Structure" timestamp="1594273854328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594273242236" />
-    <state width="1878" height="282" key="GridCell.Tab.0.center" timestamp="1594273242236">
+    <state x="441" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1594273854328" />
+    <state x="708" y="239" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1594286404283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594273242236" />
-    <state width="1878" height="282" key="GridCell.Tab.0.left" timestamp="1594273242236">
+    <state x="708" y="239" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1594286404283" />
+    <state x="587" y="78" key="CommitChangelistDialog2" timestamp="1594273594420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594273242236" />
-    <state width="1878" height="282" key="GridCell.Tab.0.right" timestamp="1594273242236">
+    <state x="587" y="78" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594273594420" />
+    <state x="742" y="276" key="FileChooserDialogImpl" timestamp="1594286386851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594273242236" />
+    <state x="742" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594286386851" />
+    <state x="784" y="440" key="Github.CreateGistDialog" timestamp="1594273969189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="784" y="440" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594273969189" />
+    <state width="1878" height="282" key="GridCell.Tab.0.bottom" timestamp="1594310830620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594310830620" />
+    <state width="1878" height="282" key="GridCell.Tab.0.center" timestamp="1594310830620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594310830620" />
+    <state width="1878" height="282" key="GridCell.Tab.0.left" timestamp="1594310830620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594310830620" />
+    <state width="1878" height="282" key="GridCell.Tab.0.right" timestamp="1594310830620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594310830620" />
+    <state x="441" y="94" key="SettingsEditor" timestamp="1594279958412">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="441" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594279958412" />
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2" timestamp="1594311792727">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594311792727" />
+    <state x="740" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1594273962290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594273962290" />
     <state x="385" y="181" key="new project wizard" timestamp="1594253758007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="385" y="181" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1594253758007" />
-    <state x="620" y="243" width="672" height="677" key="run.anything.popup" timestamp="1594273242221">
+    <state x="636" y="259" width="672" height="677" key="run.anything.popup" timestamp="1594284913445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="620" y="243" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594273242221" />
+    <state x="636" y="259" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594284913445" />
+    <state x="623" y="226" key="search.everywhere.popup" timestamp="1594279975612">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="226" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594279975612" />
   </component>
 </project>
