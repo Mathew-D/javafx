@@ -10,18 +10,23 @@ import java.io.IOException;
 
 
 public class MainApp extends Application {
-    private static Scene scene;
+    private static Stage stage;
 
     @Override
-    public void start(@SuppressWarnings("exports") Stage stage) throws IOException {
-        scene = new Scene(loadFXML("primary"));
-        stage.setTitle("");
-        stage.setScene(scene);
-        stage.show();
+    public void start(@SuppressWarnings("exports") Stage s) throws IOException {
+        stage=s;
+        setRoot("primary","");
     }
 
     static void setRoot(String fxml) throws IOException {
-        scene.setRoot(loadFXML(fxml));
+        setRoot(fxml,stage.getTitle());
+    }
+
+    static void setRoot(String fxml, String title) throws IOException {
+        Scene scene = new Scene(loadFXML(fxml));
+        stage.setTitle(title);
+        stage.setScene(scene);
+        stage.show();
     }
 
     private static Parent loadFXML(String fxml) throws IOException {

@@ -11,13 +11,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <mainClass>archetype.it.MainApp</mainClass>
+        <mainClass>it.pkg.MainApp</mainClass>
     </properties>
-
-    <organization>
-        <!-- Used as the 'Vendor' for JNLP generation -->
-        <name>Your Organisation</name>
-    </organization>
 
     <dependencies>
         <dependency>
@@ -34,8 +29,25 @@
 
     <build>
         <plugins>
+            <!-- adds file to let you run program outside of IDE -->
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <configuration>
+                            <tasks>
+                                <echo file="${project.build.directory}/runme.bat">start jlink-image\bin\javaw -jar modules\${project.artifactId}-${project.version}.jar</echo>
+                            </tasks>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
 
-            <!-- sets up the version of Java you are running and complines the Code -->
+            <!-- sets up the version of Java you are running -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -51,24 +63,6 @@
                     </dependency>
                 </dependencies>
             </plugin>
-
-            <!-- used to make the program run -->
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>1.6.0</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>exec</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <mainClass>${mainClass}</mainClass>
-                </configuration>
-            </plugin>
-
 
             <!-- Adds the mainClass to the jar so it will run outside -->
             <plugin>
@@ -88,7 +82,7 @@
             <plugin>
                 <groupId>org.moditect</groupId>
                 <artifactId>moditect-maven-plugin</artifactId>
-                <version>1.0.0.Beta1</version>
+                <version>1.0.0.Beta2</version>
                 <executions>
                     <execution>
                         <id>create-runtime-image</id>
